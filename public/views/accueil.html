@@ -5,6 +5,30 @@
         <title>Accueil</title>
 
         <style>
+            #centre {
+                margin-top: 30vh;
+            }
+
+            .bouton1 {
+                height: 30vh;
+                background-image: url(Cerealesvertes.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity:0.80;
+            }
+
+            .bouton2 {
+                height: 30vh;
+                background-image: url(Cerealesjaunes.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity:0.80;
+            }
+
+            a {
+                margin: 0 auto;
+            }
+
 
 
         </style>
@@ -12,12 +36,15 @@
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="acheteur col s12 col m6 valign">
-                    <a class="waves-effect waves-light btn-large">Je veux acheter</a>
-                </div>
-                <div class="vendeur col s12 col m6 valign">
-                    <a class="waves-effect waves-light btn-large">Je veux vendre</a>
+            <div class="row" id="centre">
+                <div>
+                    <div class="bouton1 col s12 col m6 valign-wrapper center-align">
+                        <a class="waves-effect waves-light btn-large valign center green lighten-2 black-text">Je veux acheter</a>
+                    </div>
+                    <div class="bouton2 col s12 col m6 valign-wrapper center-align">
+                        <a class="waves-effect waves-light btn-large valign center lime lighten-2 black-text">Je veux vendre</a>
+                    </div>
+
                 </div>
             </div>
         </div>
