@@ -50,8 +50,8 @@ footer {
 
 /* accueil */
 
-#centre {
-    margin-top: 7%;
+#centre1 {
+    margin-top: 30vh;
 }
 
 .bouton1 {
@@ -93,6 +93,10 @@ td {
 
 .selec {
   padding-left: 20px;
+}
+
+#centre2 {
+  margin-top: 8vh;
 }
 
 
