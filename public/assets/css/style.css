@@ -4,6 +4,7 @@
     height: 120%;
     background-color: #aed581;
     width: 100vw;
+
 }
 i {
     margin-left: 20px;
@@ -42,7 +43,7 @@ footer {
 /* accueil */
 
 #centre {
-    margin-top: 30vh;
+    margin-top: 45vh;
 }
 
 .bouton1 {
@@ -66,9 +67,27 @@ footer {
 }
 /*acheteur*/
 
-#acheteur {
-  background-image: url(../img/Cerealesvertes.jpg);
+.acheteur {
+  background-image: url(assets/img/Cerealesvertes.jpg);
 }
+
+/*vendeur*/
+
+td {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.qualite {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+.selec {
+  padding-left: 20px;
+}
+
+
 /* label underline focus color */
 .input-field input[type=text]:focus {
     border-bottom: 1px solid #000;
