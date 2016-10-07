@@ -12,6 +12,14 @@
                     <option value="2">Maïs</option>
                     <option value="3">Orge</option>
                 </select>
+
+                <div input-field>
+                    <select class="" ng-model="select.value1" material-select watch>
+                        <option ng-repeat="value in select.choices">{{value}}</option>
+                    </select>
+                </div>
+
+
                 <!-- Qualité -->
                 <br>
                 <input placeholder="Protéines %" id="pro" type="text" class="validate">
