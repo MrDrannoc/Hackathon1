@@ -62,7 +62,11 @@ input#CP.validate {
     margin-top: 5px;
 }
 
-
+.bg-white{
+  background-color: white;
+  opacity:0.8;
+  margin-top: 20px;
+}
 /*Footer*/
 
 footer {
@@ -132,6 +136,7 @@ footer {
     background: url('../img/Cerealesjaunes.jpg');
     background-size: cover;
     height: 82vh;
+    top:50px;
 }
 
 td {
@@ -151,7 +156,14 @@ td {
 #centre2 {
     margin-top: 8vh;
 }
-
+.loc{
+  width: 30%;
+  height: 30px;
+  margin-left: 35%;
+  margin-top: 15px;
+  background-color: white;
+  opacity:0.8;
+}
 
 /* label underline focus color */
 
