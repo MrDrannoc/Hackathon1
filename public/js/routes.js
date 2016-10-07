@@ -6,8 +6,13 @@ const routes = ($routeProvider, $httpProvider) => {
             controller: 'mainController',
             controllerAs: 'vm'
         })
-        .when('/acheteurs', {
-            templateUrl: 'views/acheteurs.html',
+        .when('/acheteur', {
+            templateUrl: 'views/acheteur/acheteur.html',
+            controller: 'mainController',
+            controllerAs: 'vm'
+        })
+        .when('/vendeur', {
+            templateUrl: 'views/vendeur/vendeur.html',
             controller: 'mainController',
             controllerAs: 'vm'
         })

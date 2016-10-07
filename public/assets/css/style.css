@@ -1,16 +1,104 @@
-.navbar-yellow {
-    background-color: #FFF94D;
-    border: none;
-    margin: 0;
-    padding: 0;
+/*barre nav*/
+
+#nav {
+    height: 120%;
+    background-color: #aed581;
     width: 100vw;
-    border-radius: 0;
-    border-bottom: 2px solid black;
 }
-.navbar-brand img {
-    max-height: 100%;
-    transition: 0.8s;
+i {
+    margin-left: 20px;
 }
-.navbar-brand:hover img {
-    transform: rotate(360deg);
+
+nav p {
+  font-size: 200;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 30px;
+}
+
+input#CP.validate {
+  background-color: white;
+  width: 50%;
+  color: black;
+  border-radius: 10px;
+}
+
+/*Footer*/
+
+footer {
+  position: absolute;;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footnav {
+    background-color: #aed581;
+}
+
+.imgfoot {
+  margin-left: 15px;
+}
+
+/* accueil */
+
+#centre {
+    margin-top: 30vh;
+}
+
+.bouton1 {
+    height: 30vh;
+    background-image: url(../img/Cerealesvertes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.80;
+}
+
+.bouton2 {
+    height: 30vh;
+    background-image: url(../img/Cerealesjaunes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.80;
+}
+
+.ab {
+    margin: 0 auto;
+}
+/*acheteur*/
+
+#acheteur {
+  background-image: url(../img/Cerealesvertes.jpg);
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+.row {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+
+}
+#hag,
+#hum,
+#prix,
+#pro,
+#ps {
+    background-color: rgb(239, 243, 235);
+    text-align: right;
+    border: 0 0 0 0;
+    color: black;
+
+}
+.input-symbol-euro {
+    position: relative;
+}
+.input-symbol-euro input {
+    padding-left: 18px;
+}
+.input-symbol-euro:before {
+    position: absolute;
+    top: 0;
+    content: "€";
+    left: 5px;
 }
