@@ -42,17 +42,6 @@ class mainController {
             this.load();
         });
     }
-<<<<<<< HEAD
-    getHU(origin, dest) {
-        console.log(origin, dest);
-        $.get("https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + origin + "&destinations=" + dest + "&mode=driving&language=fr-FR", (res) => {
-            console.log(res);
-            var reponse = {};
-            reponse.distanceText = res.rows[0].elements[0].distance.text;
-            reponse.distanceValue = res.rows[0].elements[0].distance.value;
-            alert(reponse.distanceText);
-        });
-=======
     reloadScope() {
       this.$scope.$apply();
     }
@@ -83,7 +72,6 @@ class mainController {
         }
         this.reloadScope();
       });
->>>>>>> hbapi2
     }
 
 
