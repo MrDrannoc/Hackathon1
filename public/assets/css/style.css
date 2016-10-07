@@ -76,7 +76,7 @@ footer {
 /*acheteur*/
 
 .acheteur {
-  background-image: url(assets/img/Cerealesvertes.jpg);
+  background: url('../assets/img/Cerealesvertes.jpg');
 }
 
 /*vendeur*/
