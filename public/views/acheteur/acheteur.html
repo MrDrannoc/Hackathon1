@@ -3,56 +3,52 @@
 
     <div class="container">
 
-        <div class="row" id="ach">
-            <div class=" col s10  col m5   col l2 ">
+        <div class="row">
+            <div class="col s10 m5 l2 margin-t-50">
                 <!-- Produits -->
-                <select class="browser-default">
-                    <option value="" disabled selected>Produit</option>
+                <select onchange="$('#hideme').show()">
+                    <option value="" disabled selected>   Produit</option>
                     <option value="1">Blé</option>
                     <option value="2">Maïs</option>
                     <option value="3">Orge</option>
                 </select>
 
-                <div input-field>
-                    <select class="" ng-model="select.value1" material-select watch>
-                        <option ng-repeat="value in select.choices">{{value}}</option>
-                    </select>
-                </div>
-
 
                 <!-- Qualité -->
                 <br>
-                <input placeholder="Protéines %" id="pro" type="text" class="validate">
-                <input placeholder="PS Kg" id="ps" type="text" class="validate">
-                <input placeholder="Hagberg Sec" id="hag" type="text" class="validate">
-                <input placeholder="Humidité %" id="hum" type="text" class="validate">
+                <div id='hideme' style='display:none'>
+                  <input placeholder="Protéines %" id="pro" type="text" class="validate">
+                  <input placeholder="PS Kg" id="ps" type="text" class="validate">
+                  <input placeholder="Hagberg Sec" id="hag" type="text" class="validate">
+                  <input placeholder="Humidité %" id="hum" type="text" class="validate">
+                </div>
 
             </div>
 
-            <div class="col s10 col m5  col l2">
+          <div class="col s10 m5 l2 margin-t-50">
                 <!-- Quantité -->
-                <select class="browser-default">
-                    <option value="" disabled selected>Quantité</option>
+                <select>
+                    <option value="" disabled selected>   Quantité</option>
                     <option value="1">30 tonnes</option>
                     <option value="2">60 tonnes</option>
                     <option value="3">90 tonnes</option>
                 </select>
             </div>
 
-            <div class="col s10 col m5 col l2">
+            <div class="col s10 col m5 col l2 margin-t-50">
                 <input placeholder="Prix" id="prix" type="text" class="validate">
             </div>
 
-            <div class="col s10 col m5  col l2">
+            <div class="col s10 m5 l2 margin-t-50">
                 <!-- Destination-->
-                <select class="browser-default">
-                    <option value="" disabled selected>Destination</option>
+                <select>
+                    <option value="" disabled selected>   Destination</option>
                     <option value="1">Ile de France</option>
                     <option value="1">Rouen</option>
                 </select>
             </div>
 
-            <div class="col s10 col m5  col l1 offset-l1  ">
+            <div class="col s10 m5 l2 margin-t-50">
                 <button class="btn waves-effect waves-light  btn-large" type="submit" name="action">Valider offre
                     <i class="material-icons right">Valider</i>
                 </button>
