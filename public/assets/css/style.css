@@ -24,6 +24,14 @@ input#CP.validate {
   border-radius: 10px;
 }
 
+.brand-logo {
+  margin-top: 10px;
+}
+
+.chevron {
+  margin-top: 5px;
+}
+
 /*Footer*/
 
 footer {
@@ -43,7 +51,7 @@ footer {
 /* accueil */
 
 #centre {
-    margin-top: 45vh;
+    margin-top: 7%;
 }
 
 .bouton1 {
@@ -93,7 +101,7 @@ td {
     border-bottom: 1px solid #000;
     box-shadow: 0 1px 0 0 #000;
 }
-.row {
+#ach {
     margin-top: 50vh;
     transform: translateY(-50%);
 
